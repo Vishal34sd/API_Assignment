@@ -79,6 +79,5 @@ function handleWeatherErrors(error, next) {
     error.message = "Unable to reach Weather API";
     error.status = 503;
   }
-
   next(error);
 }

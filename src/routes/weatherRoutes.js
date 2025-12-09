@@ -9,5 +9,4 @@ router.get("/current", getCurrentWeather);
 router.get("/forecast/:id", getForecastById);
 
 
-
 export default router;
