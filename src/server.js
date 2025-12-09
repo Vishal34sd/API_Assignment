@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-
+import weatherRoutes from "./routes/weatherRoutes.js"
 
 dotenv.config();
 
@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("Weather Explorer API Running");
 });
 
-app.use("/weather", weatherRouter);
+app.use("/weather", weatherRoutes);
 
 app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ error: err.message });

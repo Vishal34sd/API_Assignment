@@ -1,0 +1,98 @@
+{
+  "current:delhi": {
+    "value": {
+      "coord": {
+        "lon": 77.2167,
+        "lat": 28.6667
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 23.05,
+        "feels_like": 22.22,
+        "temp_min": 23.05,
+        "temp_max": 23.05,
+        "pressure": 1016,
+        "humidity": 31,
+        "sea_level": 1016,
+        "grnd_level": 990
+      },
+      "visibility": 3500,
+      "wind": {
+        "speed": 3.09,
+        "deg": 270
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1765279141,
+      "sys": {
+        "type": 1,
+        "id": 9165,
+        "country": "IN",
+        "sunrise": 1765243952,
+        "sunset": 1765281275
+      },
+      "timezone": 19800,
+      "id": 1273294,
+      "name": "Delhi",
+      "cod": 200
+    },
+    "expiresAt": 1765280050029
+  },
+  "current:lucknow": {
+    "value": {
+      "coord": {
+        "lon": 80.9167,
+        "lat": 26.85
+      },
+      "weather": [
+        {
+          "id": 721,
+          "main": "Haze",
+          "description": "haze",
+          "icon": "50d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 22.99,
+        "feels_like": 22.15,
+        "temp_min": 22.99,
+        "temp_max": 22.99,
+        "pressure": 1015,
+        "humidity": 31,
+        "sea_level": 1015,
+        "grnd_level": 1001
+      },
+      "visibility": 4000,
+      "wind": {
+        "speed": 5.66,
+        "deg": 280
+      },
+      "clouds": {
+        "all": 0
+      },
+      "dt": 1765278809,
+      "sys": {
+        "type": 1,
+        "id": 9176,
+        "country": "IN",
+        "sunrise": 1765242828,
+        "sunset": 1765280622
+      },
+      "timezone": 19800,
+      "id": 1264733,
+      "name": "Lucknow",
+      "cod": 200
+    },
+    "expiresAt": 1765280061662
+  }
+}
